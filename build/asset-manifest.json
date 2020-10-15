@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bc68ca2b.chunk.css",
+    "main.js": "/static/js/main.b2148880.chunk.js",
+    "main.js.map": "/static/js/main.b2148880.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f154848c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f154848c.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.0b223030.chunk.js": "/static/js/2.0b223030.chunk.js",
+    "static/js/2.0b223030.chunk.js.map": "/static/js/2.0b223030.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.6530181090053b707dd5a105180abbdd.js": "/precache-manifest.6530181090053b707dd5a105180abbdd.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.bc68ca2b.chunk.css.map": "/static/css/main.bc68ca2b.chunk.css.map",
+    "static/js/2.0b223030.chunk.js.LICENSE.txt": "/static/js/2.0b223030.chunk.js.LICENSE.txt",
+    "static/media/about-img.jpg": "/static/media/about-img.0fbb9bd4.jpg",
+    "static/media/style.css": "/static/media/all-title-bg.a17db9bf.jpg",
+    "static/media/all.css": "/static/media/fa-solid-900.815694de.woff",
+    "static/media/portfolio-img-01.jpg": "/static/media/portfolio-img-01.d4ef14ea.jpg",
+    "static/media/portfolio-img-02.jpg": "/static/media/portfolio-img-02.97bcb6cf.jpg",
+    "static/media/portfolio-img-03.jpg": "/static/media/portfolio-img-03.31be4092.jpg",
+    "static/media/portfolio-img-04.jpg": "/static/media/portfolio-img-04.b1e2820f.jpg",
+    "static/media/portfolio-img-05.jpg": "/static/media/portfolio-img-05.01f68e6b.jpg",
+    "static/media/post-img-02.jpg": "/static/media/post-img-02.f9b23705.jpg",
+    "static/media/post-img-03.jpg": "/static/media/post-img-03.6ef6d6f5.jpg",
+    "static/media/services-img-01.jpg": "/static/media/services-img-01.b29bc2e5.jpg",
+    "static/media/services-img-02.jpg": "/static/media/services-img-02.2314a974.jpg",
+    "static/media/services-img-03.jpg": "/static/media/services-img-03.cd40b8e1.jpg",
+    "static/media/slider-01.jpg": "/static/media/slider-01.9bb39b3d.jpg",
+    "static/media/slider-02.jpg": "/static/media/slider-02.73582b26.jpg",
+    "static/media/slider-03.jpg": "/static/media/slider-03.f4027197.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f154848c.js",
+    "static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.0b223030.chunk.js",
+    "static/css/main.bc68ca2b.chunk.css",
+    "static/js/main.b2148880.chunk.js"
+  ]
+}
