@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import Image1 from '../images/slider-01.jpg'
-import Image2 from '../images/slider-02.jpg'
-import Image3 from '../images/slider-03.jpg'
+import Image1 from '../images/slider-01.jpg';
+import Image2 from '../images/slider-02.jpg';
+import Image3 from '../images/slider-03.jpg';
 // import '../styles/all.css'
 // import '../styles/style.css'
 // import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
@@ -17,7 +17,7 @@ function ControlledCarousel() {
     const filters = {filter: 'brightness(0.5)'};
   
     return (
-      <Carousel activeIndex={index} onSelect={handleSelect} style={{position: "relative"}}>
+      <Carousel activeIndex={index} onSelect={handleSelect} style={{position: "relative", padding: "60px 60px"}}>
         <Carousel.Item>
           <img
             className="d-block w-100"

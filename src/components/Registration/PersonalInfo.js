@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { StateDropdown, RegionDropdown } from 'react-indian-state-region-selector';
 import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 class PersonalInfo extends Component{
@@ -8,10 +9,19 @@ class PersonalInfo extends Component{
         this.state={
             message:"",
             errors:{},
-           userregistrationdata:[]
+           userregistrationdata:[],
+           State: '', region: ''
         };    
     }
     
+    selectState (val) {
+      this.setState({ State: val });
+    }
+   
+    selectRegion (val) {
+      this.setState({ region: val });
+    }
+   
     validateForm() {
       let fields= this.props;
       let errors={};
@@ -111,7 +121,7 @@ class PersonalInfo extends Component{
     }
 
     render(){
-        const { Name, FatherName, Address ,State , District, Taluk, City, Pincode, MobileNo, AlternateNo, PasswordPIN, handleChange } = this.props;
+        const { Name, FatherName, Address ,State , District, Taluk, City, Pincode, MobileNo, AlternateNo, PasswordPIN, handleChange,  region } = this.props;
        
         return(
             <div className="container-m">
@@ -171,6 +181,15 @@ class PersonalInfo extends Component{
                           onChange={handleChange('Address')}
                          ></input>
                          <div className="errorMsg">{this.state.errors.Address}</div> 
+                </div>
+                <div>
+                <StateDropdown
+                     value={State}
+                     onChange={(val) => this.selectState(val)} />
+                <RegionDropdown
+                     State={State}
+                     value={region}
+                     onChange={(val) => this.selectRegion(val)} />
                 </div>
 
                 <div className="form-group">
